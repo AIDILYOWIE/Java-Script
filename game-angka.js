@@ -1,6 +1,6 @@
 var ulang = true;
 while (ulang){
-    for ( var i = 2; i > 0; i--  ) {
+    for ( var i = 3; i > 0; i--  ) {
 
 
         
@@ -34,15 +34,15 @@ if (comp < 0.10){
     comp = 10;
 }
 
-hasil = '';
-if (a == comp ) {
-    hasil = 'jawaban anda benar '+comp;
+    hasil = '';
+    if (a == comp ) {
+        hasil = 'jawaban anda benar '+comp;
 
-}else {
-    hasil = 'jawaban anda kurang tepat \n kesempatan anda tinggal '+i;
-}
+    }else {
+        hasil = 'jawaban anda kurang tepat \n kesempatan anda tinggal '+i;
+    }
 
-alert(hasil);
+    alert(hasil);
 
 
 

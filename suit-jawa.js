@@ -1,8 +1,7 @@
 
 
 
-var u = true;
-while (u){
+while (true){
 // menangkap pilihan dari user
 
     var p = prompt('AYO MAIN SAMA TANTE SELY \n pilih : \n1.gajah \n2.semut \n3.orang');
@@ -38,7 +37,7 @@ if (p == comp){
 
 alert('kamu memilih : '+p+' dan tante sely memilih : '+comp+' maka kamu '+hasil);
 
-u = confirm('mau main lagi sama tante ?')
+true = confirm('mau main lagi sama tante ?')
 }
 
  alert('yahh tante sedih')
