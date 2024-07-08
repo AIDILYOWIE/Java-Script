@@ -24,7 +24,7 @@ function Akusayang(nama, status){
 //     }
 // }
 // c(a, b);
-// function bisa disebut expresion jika function tersebut di simpan di dalam varia
+// function bisa disebut expresion jika function tersebut di simpan di dalam variable
 
 // kita bisa memnggil dulu baru mendeklarasikan function
 

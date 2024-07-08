@@ -63,7 +63,7 @@ Boolean(10 < 20)
 Boolean(10)
 // true
 
-Boolean("melisa")
+Boolean("TARISA")
 // true
 
 Boolean(-2)
@@ -72,6 +72,6 @@ Boolean(-2)
 Boolean(0)
 // false
 
-var nama = "melisa",
+var nama = "TARISA",
     umur = "17",
     status = "pacaran sama owi";
