@@ -41,16 +41,18 @@
 // sebenarnya isi nya tidak hilang, hanya di gantikan
 
 // 3.menampilkan isi array
-// untuk menampilkan isi arrat kita butuh looping / juga bisa tidak
-// var tarisa = ["tarisa", "dwi", "aidil", "sayang"];
-// for (var i = 0; i < tarisa.length; i++){
-//     console.log(tarisa[i]);
-// }
+// untuk menampilkan isi array kita butuh looping / juga bisa tidak
+var tarisa = ["tarisa", "dwi", "aidil", "sayang"];
+for (var i = 0; i < tarisa.length; i++){
+    console.log(tarisa[i]);
+}
+// fungsi i untuk meminta ke array untuk menampilkan apa yang dia mau
+// jika i = 0 maka, maka array tarisa akan menampilkan isinya yang index ke 0
 
 // method pada array
 
 // 1.join
-var tarisa = ["tarisa", "dwi", "aidil"];
+// var tarisa = ["tarisa", "dwi", "aidil"];
 // console.log(tarisa.join('-'));
 
 // menambah / menghapus di akhir array
@@ -128,9 +130,9 @@ var tarisa = ["tarisa", "dwi", "aidil"];
 // 10.find
 // find hanya bisa menemukan 1 nilai saja 
 // dan find tidak bisa menemukan array 
-var angka = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 13, 25];
-var angka2 = angka.find(function (a) {
-  return a == 13;
-});
-alert(angka2)
+// var angka = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 13, 25];
+// var angka2 = angka.find(function (a) {
+//   return a == 13;
+// });
+// alert(angka2)
 
