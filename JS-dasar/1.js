@@ -13,8 +13,8 @@ x % 2 == 0 || x > 5
 
 var a
 var b
-a = "tarisa"
-b = "dwi"
+a = "melisa"
+b = "fais"
 
 a + b 
 // tarisadwi
@@ -53,7 +53,7 @@ var m
 m = 10
 m < 20
 
-"melisa fais" == "Melisa fais"
+"melisa fs" == "Melisa fs"
 
 // false
 
@@ -63,7 +63,7 @@ Boolean(10 < 20)
 Boolean(10)
 // true
 
-Boolean("TARISA")
+Boolean("MELISA")
 // true
 
 Boolean(-2)
@@ -72,6 +72,6 @@ Boolean(-2)
 Boolean(0)
 // false
 
-var nama = "TARISA",
+var nama = "MELISA",
     umur = "17",
-    status = "pacaran sama owi";
+    status = "bot epep";

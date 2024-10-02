@@ -42,7 +42,7 @@
 
 // 3.menampilkan isi array
 // untuk menampilkan isi array kita butuh looping / juga bisa tidak
-var tarisa = ["tarisa", "dwi", "aidil", "sayang"];
+var tarisa = ["tarisa", "dwi", "aidil", "yojes"];
 for (var i = 0; i < tarisa.length; i++){
     console.log(tarisa[i]);
 }
@@ -57,7 +57,7 @@ for (var i = 0; i < tarisa.length; i++){
 
 // menambah / menghapus di akhir array
 // 2.push
-// tarisa.push('aku','sayang')
+// tarisa.push('aku','yojes')
 
 // 3.pop
 // tarisa.pop()
@@ -68,11 +68,11 @@ for (var i = 0; i < tarisa.length; i++){
 
 // 5.unshift
 // menambah isi pada awal array
-// tarisa.unshift('aku sayang')
+// tarisa.unshift('aku yojes')
 
 // 4.splice
 // splice(indexawal, mudihapusberapa, elemenbaru, elemenbaru2)
-// tarisa.splice(0, 2, 'aku sayang', 'tarisa', 'dwi')
+// tarisa.splice(0, 2, 'yojes', 'tarisa', 'dwi')
 
 // 5.slice
 // slice(awal, akhir)

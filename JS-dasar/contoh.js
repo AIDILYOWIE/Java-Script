@@ -1,0 +1,1 @@
+array = ['gunting',  'kertas', 'batu']
