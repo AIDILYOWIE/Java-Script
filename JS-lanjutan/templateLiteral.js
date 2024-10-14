@@ -3,17 +3,20 @@
 //  Multi-Line String
 // console.log(`String 1
 // String 2`);
-// // HTML FRAGMENTS,
-// let mhs = {
-//   nama: "aidil",
-//   nomer: 18,
-//   nrp: "95860459865"
-// };
-// let i = `<div class="mhs">
-//             <h2>${mhs.nama}</h2>
-//             <span class="nrp">${mhs.nrp}</span>
-//         </div>`;
-// console.log(i);
+
+// HTML FRAGMENTS,
+let mhs = {
+  nama: "aidil",
+  nomer: 18,
+  nrp: "95860459865"
+};
+let i = `<div class="mhs">
+            <h2>${mhs.nama}</h2>
+            <span class="nrp">${mhs.nrp}</span>
+        </div>`;
+let m;
+m.innerHTML = i;
+console.log(m );
 
 // // Embedde Expression
 // let nama = "melisa";

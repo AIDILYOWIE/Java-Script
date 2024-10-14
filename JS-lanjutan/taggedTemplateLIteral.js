@@ -1,19 +1,19 @@
 // Tegged Template
+// bentuk yang lebih komplek dari template literals, memungkinkan kita untuk membaca template literals melalui function
 const nama = {
   nama: "aidil yowie",
   title: "Full Stack Developer",
 };
 
-// function coba(s, nama, title, email) {
+// function coba(s, nama, title) {
 //   console.log(s);
 //   console.log(nama);
-//   console.log(email);
 //   return title;
 // }
 
 // const el = coba`halo nama saya ${nama.nama}, saya punya skill ${nama.title} my title`;
 // console.log(el);
-//  argument coba akan masuk kedalan parameter coba
+// expresion dan strings akan masuk kedalan parameter function coba
 // ketika kita menjalankan  template literal itu, maka take templatenya akan memecah tiap-tiap string di dalamnya dan dipisahkan oleh expression
 //  expression akan masuk ke parameter berikutnya
 
@@ -37,18 +37,18 @@ const nama = {
 //   // return result;
 
 //   // Hire Order Function
-//   return s.reduce((result, str, i) => `${result}${str}${values[i] || ""}`, "");
+//   return s.reduce((result, str, i) => `${result}${str}${values[i] || ""}`, " ");
 // }
 
 // const el = coba`halo nama saya ${nama.nama}, saya punya skill ${nama.title} my title`;
-// document.body.innerHTMLw = el;
+// document.body.innerHTML = el;
 
 // Highlight
 // const a = "aidil";
 // const b = "Full Stack Developer";
 // function coba(s, ...values) {
 //   // Hire Order Function
-//   return s.reduce((result, str, i) => `${result}${str}<span class="hl">${values[i] || ""}</span>`, "");
+//   return s.reduce((result, str, i) => `${result}${str}<span class="hl">${values[i] || " "}</span>`, "");
 // }
 
 // const el = coba`halo nama saya ${a}, saya punya skill ${b} my title`;
@@ -62,18 +62,15 @@ const nama = {
 //   }, "");
 // }
 
-// const unsafe = "<div>Some HTML</div>";
+// const unsafe = " Some HTML / ";
 // const el = escapeHTML`Safe string: ${unsafe}`;
 
-// console.log(el);
+// document.body.innerHTML = el;
 
 // translation dan internationalization
 // function i18n(strings, ...values) {
-//   const translations = [
-//     ["Hello", "Your total is ", "."],
-//     ["Halo", "Total anda adalah ", "."],
-//   ];
-//   return translations[1].reduce((result, str, i) => result + str + (values[i] || ""), "");
+//   const translations = [["Hello Your total is . "], ["Halo Total anda adalah . "]];
+//   return translations[1].reduce((result, str, i) => `${result}${str}${values[i] || ""}`, "");
 // }
 
 // const total = 1000;
@@ -89,5 +86,5 @@ function formatCurrency(strings, ...values) {
   }, "");
 }
 
-const amount = 50000;
-console.log(formatCurrency`Jumlah total: ${amount}.`);
+let amount = 10000;
+console.log(formatCurrency`Jumlah total: ${amount} .`);
